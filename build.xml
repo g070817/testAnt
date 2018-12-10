@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project name="testAnt" default="run" basedir="../">
+    <!--
     <property name="src" value="src"/>
     <property name="dest" value="classes"/>
+    <property name="testAnt" value="Main.jar"/>
+    -->
+
+    <property name="src" value="testAnt"/>
+    <property name="dest" value="testAnt"/>
     <property name="testAnt" value="Main.jar"/>
 
     <target name="init">
